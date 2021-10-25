@@ -1,5 +1,39 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .navigation {
-  width: 300px;
+  width: 200px;
   background-color: aqua;
   height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100vh;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.navigation::-webkit-scrollbar {
+  display: none;
+}
+
+.linkables {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkables > li > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  background-color: blanchedalmond;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
