@@ -14,6 +14,9 @@
 
     <!-- online fonts -->
     <link href="http://fonts.cdnfonts.com/css/sifonn" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,16 +35,16 @@
 
     <div class="sections" id="landing">
         <div class="name">
-            <h1 class="font-weight-bold mb-0">HI, I'M </h1>
-            <h1 class="font-weight-bold">MUHAMMAD BREDA</h1>
+            <h1 class=" mb-0" id="hi">HI, I'M </h1>
+            <h1 class="font-weight-bold">MUHAMMAD</h1>
             <div class="mydscrp mt-3">
-                <h4>ASPIRING FULL STACK DEVELOPER</h4>
+                <p>ASPIRING FULL STACK DEVELOPER</p>
             </div>
         </div>
     </div>
-    <div class="sections" id="About">
+    <div class="sections" id="About" onclick="goToAbout()">
         <div class="inside">
-            <h1 class="mb-3">About</h1>
+            <h1 class="mb-3">ABOUT</h1>
             <div class="line">
                 
             </div>
@@ -83,11 +86,11 @@
 
         </div>
     </div>
-    <div class="sections" id="WorkandEducation">WorkandEducation</div>
-    <div class="sections" id="Skills">Skills</div>
-    <div class="sections" id="Projects">Projects</div>
-    <div class="sections" id="Testimonials">Testimonials</div>
-    <div class="sections" id="Contact">Contact</div>
+    <div class="sections" id="WorkandEducation" onclick="goToWork()">WorkandEducation</div>
+    <div class="sections" id="Skills" onclick="goToSkills()">Skills</div>
+    <div class="sections" id="Projects" onclick="goToProjects()">Projects</div>
+    <div class="sections" id="Testimonials" onclick="goToTestimonial()">Testimonials</div>
+    <div class="sections" id="Contact" onclick="goToContact()">Contact</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

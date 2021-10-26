@@ -11,10 +11,13 @@ var place;
 
 function goToAbout(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("about")
+    if(place !== 'visitedAbout'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
     }
+    
 
     if(place == 'visitedWork'){
         for (let i = 0; i < 7; i++) {
@@ -162,11 +165,15 @@ function goToHome(){
 
 function goToWork(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("work")
+    if(place !== 'visitedWork'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+    
     }
 
+    
 
     if(place == 'visitedAbout'){
         for (let i = 0; i < 7; i++) {
@@ -227,9 +234,13 @@ function goToWork(){
 
 function goToSkills(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("skills")
+    if(place !== 'visitedSkills'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
     }
 
     if(place == 'visitedAbout'){
@@ -292,9 +303,13 @@ function goToSkills(){
 
 function goToProjects(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("projects")
+    if(place !== 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
     }
 
     if(place == 'visitedAbout'){
@@ -356,9 +371,13 @@ function goToProjects(){
 
 function goToTestimonial(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("testimonial")
+    if(place !== 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
     }
 
     if(place == 'visitedAbout'){
@@ -421,9 +440,13 @@ function goToTestimonial(){
 
 function goToContact(){
 
-    for (let i = 0; i < 7; i++) {
-        let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("contact")
+    if(place !== 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
+        }
+
+
     }
 
     if(place == 'visitedAbout'){

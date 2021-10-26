@@ -1,8 +1,8 @@
 /* reset */
 
-/* body {
-  font-family: "Sifonn", sans-serif;
-} */
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 .navigation {
   width: 200px;
@@ -102,9 +102,21 @@ body::-webkit-scrollbar {
 }
 
 #landing {
-  background-color: #457b9d;
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(to right,
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* bottom, image */
+  url(./images/Breda_bg.JPG);
+
+  background-size: cover;
+  background-position: center;
+
   margin-left: 200px;
 }
+
 
 #About {
   background-color: #1d3557;
@@ -160,14 +172,19 @@ body::-webkit-scrollbar {
 .mydscrp {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-evenly;
 }
 
+.mydscrp>p {
+  margin-bottom: 0;
+}
+
 .name {
   color: #f1faee;
-  width: 400px;
+  width: 210px;
   margin-left: 70px;
   margin-top: 50vh;
 }
@@ -197,8 +214,19 @@ body::-webkit-scrollbar {
 .btn {
   border-radius: 0;
   border: 3px solid #457b9d;
+  margin-top: 10px;
 }
 
 .btn:hover {
   background-color: #457b9d;
+  border-color: #457b9d;
+  color: white;
+}
+
+#hi {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: 200;
 }
