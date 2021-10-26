@@ -193,3 +193,12 @@ body::-webkit-scrollbar {
 .bio {
   margin-top: 70px;
 }
+
+.btn {
+  border-radius: 0;
+  border: 3px solid #457b9d;
+}
+
+.btn:hover {
+  background-color: #457b9d;
+}
