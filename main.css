@@ -172,3 +172,16 @@ body::-webkit-scrollbar {
   padding: 70px;
   color: #f1faee;
 }
+
+.line {
+  border: 3px solid #457b9d;
+  width: 70px;
+}
+
+.aboutInfo {
+  margin-top: 70px;
+}
+
+.myInfo {
+  border-bottom: #f1faee 1px solid;
+}
