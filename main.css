@@ -1,5 +1,9 @@
 /* reset */
 
+/* body {
+  font-family: "Sifonn", sans-serif;
+} */
+
 .navigation {
   width: 200px;
   background-color: #1d3557;
@@ -184,4 +188,8 @@ body::-webkit-scrollbar {
 
 .myInfo {
   border-bottom: #f1faee 1px solid;
+}
+
+.bio {
+  margin-top: 70px;
 }
