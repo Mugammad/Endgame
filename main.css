@@ -2,7 +2,7 @@
 
 .navigation {
   width: 200px;
-  background-color: aqua;
+  background-color: #1d3557;
   height: 100%;
   box-sizing: border-box;
   padding: 20px;
@@ -50,8 +50,16 @@ body::-webkit-scrollbar {
   height: 100vh;
   width: 800px;
   position: absolute;
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
   left: 0;
   transition: left 0.8s ease-out;
+}
+
+.sections::-webkit-scrollbar {
+  display: none;
 }
 
 .sections.about {
@@ -74,31 +82,76 @@ body::-webkit-scrollbar {
   transition: left 0.8s ease-out;
 }
 
+.sections.projects {
+  left: -3200px;
+  transition: left 0.8s ease-out;
+}
+
+.sections.testimonial {
+  left: -4000px;
+  transition: left 0.8s ease-out;
+}
+
+.sections.contact {
+  left: -4800px;
+  transition: left 0.8s ease-out;
+}
+
 #landing {
-  background-color: blue;
+  background-color: #457b9d;
   margin-left: 200px;
 }
 
 #About {
-  background-color: seagreen;
+  background-color: #1d3557;
   margin-left: 1000px;
 }
 
 #WorkandEducation {
-  background-color: blue;
+  background-color: #457b9d;
   margin-left: 1800px;
 }
 
 #Skills {
-  background-color: seagreen;
+  background-color: #1d3557;
   margin-left: 2600px;
 }
 
+#Projects {
+  background-color: #457b9d;
+  margin-left: 3400px;
+}
+
+#Testimonials {
+  background-color: #1d3557;
+  margin-left: 4200px;
+}
+
+#Contact {
+  background-color: #457b9d;
+  margin-left: 5000px;
+}
+
 .nav-btn {
-  width: 150px;
-  text-align: left;
+  background-color: #1d3557; /* Green */
+  border: none;
+  color: #f1faee;
+  padding: 15px 32px;
   padding-left: 0;
-  position: absolute;
-  margin-top: -40px;
-  opacity: 0;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  border-bottom: 1px solid;
+}
+
+.nav-btn:hover {
+  color: #457b9d;
+  transition: 0.1s linear;
+}
+
+.name {
 }

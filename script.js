@@ -11,13 +11,13 @@ var place;
 
 function goToAbout(){
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         let location = document.getElementsByClassName("sections")[i];
         location.classList.toggle("about")
     }
 
     if(place == 'visitedWork'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
@@ -26,9 +26,36 @@ function goToAbout(){
     }
 
     if(place == 'visitedSkills'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -67,7 +94,7 @@ function goToAbout(){
 function goToHome(){
 
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
@@ -76,7 +103,7 @@ function goToHome(){
     }
 
     if(place == 'visitedWork'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
@@ -85,9 +112,36 @@ function goToHome(){
     }
 
     if(place == 'visitedSkills'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -108,14 +162,14 @@ function goToHome(){
 
 function goToWork(){
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         let location = document.getElementsByClassName("sections")[i];
         location.classList.toggle("work")
     }
 
 
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
@@ -124,9 +178,36 @@ function goToWork(){
     }
 
     if(place == 'visitedSkills'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -146,13 +227,13 @@ function goToWork(){
 
 function goToSkills(){
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         let location = document.getElementsByClassName("sections")[i];
         location.classList.toggle("skills")
     }
 
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
@@ -161,9 +242,36 @@ function goToSkills(){
     }
 
     if(place == 'visitedWork'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -184,10 +292,51 @@ function goToSkills(){
 
 function goToProjects(){
 
+    for (let i = 0; i < 7; i++) {
+        let location = document.getElementsByClassName("sections")[i];
+        location.classList.toggle("projects")
+    }
+
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
+        }
+
+
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -202,16 +351,56 @@ function goToProjects(){
     buttonContact.disabled = false;
 
     place = 'visitedProjects';
-About
-    
+
 }
 
 function goToTestimonial(){
 
+    for (let i = 0; i < 7; i++) {
+        let location = document.getElementsByClassName("sections")[i];
+        location.classList.toggle("testimonial")
+    }
+
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
+        }
+
+
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedContact'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("contact")
         }
 
 
@@ -232,10 +421,51 @@ function goToTestimonial(){
 
 function goToContact(){
 
+    for (let i = 0; i < 7; i++) {
+        let location = document.getElementsByClassName("sections")[i];
+        location.classList.toggle("contact")
+    }
+
     if(place == 'visitedAbout'){
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 7; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
+        }
+
+
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
+    }
+
+    if(place == 'visitedProjects'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("projects")
+        }
+
+
+    }
+
+    if(place == 'visitedTestimonial'){
+        for (let i = 0; i < 7; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("testimonial")
         }
 
 
