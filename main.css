@@ -142,7 +142,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+
   cursor: pointer;
   width: 150px;
   border-bottom: 1px solid;
@@ -153,5 +153,22 @@ body::-webkit-scrollbar {
   transition: 0.1s linear;
 }
 
+.mydscrp {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .name {
+  color: #f1faee;
+  width: 400px;
+  margin-left: 70px;
+  margin-top: 50vh;
+}
+
+.inside {
+  padding: 70px;
+  color: #f1faee;
 }
