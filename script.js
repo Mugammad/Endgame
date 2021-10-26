@@ -1,5 +1,10 @@
 const buttonAbout = document.querySelector('#aboutBtn')
 const buttonHome = document.querySelector('#homeBtn')
+const buttonWork = document.querySelector('#workBtn')
+const buttonSkills = document.querySelector('#skillsBtn')
+const buttonProjects = document.querySelector('#projectsBtn')
+const buttonTestimonial = document.querySelector('#testimonialBtn')
+const buttonContact = document.querySelector('#contactBtn')
 
 var place;
 
@@ -9,6 +14,24 @@ function goToAbout(){
     for (let i = 0; i < 6; i++) {
         let location = document.getElementsByClassName("sections")[i];
         location.classList.toggle("about")
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
     }
 
 
@@ -30,24 +53,203 @@ function goToAbout(){
 //   menu7.classList.toggle("about")
 
   
-  buttonAbout.disabled = true
-  buttonHome.disabled = false
+  buttonAbout.disabled = true;
+  buttonHome.disabled = false;
+  buttonWork.disabled = false;
+  buttonSkills.disabled = false;
+  buttonProjects.disabled = false;
+  buttonTestimonial.disabled = false;
+  buttonContact.disabled = false;
 
-   place = 'visited';
+   place = 'visitedAbout';
 }
 
 function goToHome(){
 
-    if(place == 'visited'){
+    if(place == 'visitedAbout'){
         for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = true;
+    buttonWork.disabled = false;
+    buttonSkills.disabled = false;
+    buttonProjects.disabled = false;
+    buttonTestimonial.disabled = false;
+    buttonContact.disabled = false;
+
+    place = 'visitedHome';
+
+    
+}
+
+function goToWork(){
+
+    for (let i = 0; i < 6; i++) {
         let location = document.getElementsByClassName("sections")[i];
-        location.classList.toggle("about")
+        location.classList.toggle("work")
     }
 
 
-  buttonHome.disabled = true
-  buttonAbout.disabled = false
+    if(place == 'visitedAbout'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
     }
+
+    if(place == 'visitedSkills'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("skills")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = false;
+    buttonWork.disabled = true;
+    buttonSkills.disabled = false;
+    buttonProjects.disabled = false;
+    buttonTestimonial.disabled = false;
+    buttonContact.disabled = false;
+
+    place = 'visitedWork';
+    
+}
+
+function goToSkills(){
+
+    for (let i = 0; i < 6; i++) {
+        let location = document.getElementsByClassName("sections")[i];
+        location.classList.toggle("skills")
+    }
+
+    if(place == 'visitedAbout'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
+    }
+
+    if(place == 'visitedWork'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("work")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = false;
+    buttonWork.disabled = false;
+    buttonSkills.disabled = true;
+    buttonProjects.disabled = false;
+    buttonTestimonial.disabled = false;
+    buttonContact.disabled = false;
+
+    place = 'visitedSkills';
+
+    
+}
+
+function goToProjects(){
+
+    if(place == 'visitedAbout'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = false;
+    buttonWork.disabled = false;
+    buttonSkills.disabled = false;
+    buttonProjects.disabled = true;
+    buttonTestimonial.disabled = false;
+    buttonContact.disabled = false;
+
+    place = 'visitedProjects';
+About
+    
+}
+
+function goToTestimonial(){
+
+    if(place == 'visitedAbout'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = false;
+    buttonWork.disabled = false;
+    buttonSkills.disabled = false;
+    buttonProjects.disabled = false;
+    buttonTestimonial.disabled = true;
+    buttonContact.disabled = false;
+
+    place = 'visitedTestimonial';
+
+    
+}
+
+function goToContact(){
+
+    if(place == 'visitedAbout'){
+        for (let i = 0; i < 6; i++) {
+            let location = document.getElementsByClassName("sections")[i];
+            location.classList.toggle("about")
+        }
+
+
+    }
+
+    buttonAbout.disabled = false;
+    buttonHome.disabled = false;
+    buttonWork.disabled = false;
+    buttonSkills.disabled = false;
+    buttonProjects.disabled = false;
+    buttonTestimonial.disabled = false;
+    buttonContact.disabled = true;
+
+    place = 'visitedContact';
 
     
 }

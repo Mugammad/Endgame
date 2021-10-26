@@ -51,16 +51,27 @@ body::-webkit-scrollbar {
   width: 800px;
   position: absolute;
   left: 0;
-  transition: left 0.8s ease-in-out;
+  transition: left 0.8s ease-out;
 }
 
 .sections.about {
   left: -800px;
-  transition: left 0.8s ease-in-out;
+  transition: left 0.8s ease-out;
 }
 
 .sections.Home {
   left: 0;
+  transition: left 0.8s ease-out;
+}
+
+.sections.work {
+  left: -1600px;
+  transition: left 0.8s ease-out;
+}
+
+.sections.skills {
+  left: -2400px;
+  transition: left 0.8s ease-out;
 }
 
 #landing {
@@ -76,6 +87,11 @@ body::-webkit-scrollbar {
 #WorkandEducation {
   background-color: blue;
   margin-left: 1800px;
+}
+
+#Skills {
+  background-color: seagreen;
+  margin-left: 2600px;
 }
 
 .nav-btn {
