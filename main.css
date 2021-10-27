@@ -160,7 +160,7 @@ body::-webkit-scrollbar {
 
   cursor: pointer;
   width: 100%;
-  border-bottom: 1px solid;
+  border-bottom: 0.5px solid rgba(241, 250, 238, 0.5);
 }
 
 .nav-btn:hover {
@@ -169,8 +169,8 @@ body::-webkit-scrollbar {
 }
 
 .mydscrp {
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid rgba(241, 250, 238, 0.5);
+  border-bottom: 1px solid rgba(241, 250, 238, 0.5);
   padding-top: 5px;
   padding-bottom: 5px;
   display: flex;
@@ -208,7 +208,7 @@ body::-webkit-scrollbar {
 }
 
 .myInfo {
-  border-bottom: #f1faee 1px solid;
+  border-bottom: rgba(241, 250, 238, 0.5) 1px solid;
 }
 
 .bio {
@@ -344,8 +344,15 @@ p {
   transition: 0.2s;
 }
 
-.fa:hover {
-  font-size: 120px;
-  color: #f1faee;
+.iconExp {
+  width: 100px;
+}
+
+.iconExp:hover {
+  width: 120px;
   transition: 0.2s;
+}
+
+.exp {
+  border-bottom: rgba(241, 250, 238, 0.5) 0.1px solid;
 }
