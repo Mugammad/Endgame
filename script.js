@@ -9,6 +9,7 @@ const buttonContact = document.querySelector('#contactBtn')
 var place;
 
 
+
 function goToAbout(){
 
     if(place !== 'visitedAbout'){

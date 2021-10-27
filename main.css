@@ -1,7 +1,7 @@
 /* reset */
 
 body {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .navigation {
@@ -53,6 +53,7 @@ body::-webkit-scrollbar {
 .sections {
   height: 100vh;
   width: 800px;
+  min-width: 300px;
   position: absolute;
   box-sizing: border-box;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -103,20 +104,18 @@ body::-webkit-scrollbar {
 
 #landing {
   background:
-  /* top, transparent black, faked with gradient */ 
-  linear-gradient(to right,
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-  ),
-  /* bottom, image */
-  url(./images/Breda_bg.JPG);
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url(./images/Breda_bg.JPG);
 
   background-size: cover;
   background-position: center;
 
   margin-left: 200px;
 }
-
 
 #About {
   background-color: #1d3557;
@@ -178,7 +177,7 @@ body::-webkit-scrollbar {
   justify-content: space-evenly;
 }
 
-.mydscrp>p {
+.mydscrp > p {
   margin-bottom: 0;
 }
 
@@ -196,6 +195,11 @@ body::-webkit-scrollbar {
 
 .line {
   border: 3px solid #457b9d;
+  width: 70px;
+}
+
+.lineTwo {
+  border: 3px solid #1d3557;
   width: 70px;
 }
 
@@ -229,4 +233,92 @@ body::-webkit-scrollbar {
 
 p {
   font-weight: 200;
+}
+
+#footerer {
+  color: #f1faee;
+  bottom: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+  .sections {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .inside {
+    padding: 2%;
+    width: 70%;
+  }
+
+  #landing {
+    margin-left: 0;
+    display: none;
+  }
+
+  #About {
+    margin-left: 0;
+  }
+
+  #WorkandEducation {
+    margin-left: 0;
+  }
+
+  #Skills {
+    margin-left: 0;
+  }
+
+  #Projects {
+    margin-left: 0;
+  }
+
+  #Testimonials {
+    margin-left: 0;
+  }
+
+  #Contact {
+    margin-left: 0;
+  }
+
+  .inside {
+    min-width: 300px;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sections.about {
+    left: 0;
+  }
+
+  .sections.Home {
+    left: 0;
+  }
+
+  .sections.work {
+    left: 0;
+  }
+
+  .sections.skills {
+    left: 0;
+  }
+
+  .sections.projects {
+    left: 0;
+  }
+
+  .sections.testimonial {
+    left: 0;
+  }
+
+  .sections.contact {
+    left: 0;
+  }
 }
