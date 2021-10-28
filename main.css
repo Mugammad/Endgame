@@ -109,7 +109,6 @@ body::-webkit-scrollbar {
 #landing {
   background:
   /* top, transparent black, faked with gradient */ linear-gradient(
-      to right,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
@@ -193,9 +192,9 @@ body::-webkit-scrollbar {
 
 .name {
   color: #f1faee;
-  width: 210px;
+  /* width: 210px;
   margin-left: 70px;
-  margin-top: 50vh;
+  margin-top: 50vh; */
 }
 
 .inside {
@@ -252,29 +251,62 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  .navigation {
+    display: none;
+  }
   .sections {
+    height: fit-content;
+    width: auto;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 0;
-    max-width: 100px;
+    /* box-sizing: border-box; */
+    /* -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-y: scroll; */
+    left: 0;
+    /* transition: left 0.8s ease-out; */
   }
 
-  body {
-    width: 100%;
-    overflow-x: hidden;
+  .sections::-webkit-scrollbar {
+    display: none;
   }
 
-  .aboutInfo {
-    font-size: 10px;
-    width: 50%;
+  .sections.about {
+    left: 0;
+    transition: left 0.8s ease-out;
   }
 
-  .inside {
-    padding: 2%;
-    width: 60%;
-    font-size: 25px;
+  .sections.Home {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.work {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.skills {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.projects {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.testimonial {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.contact {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.last {
+    left: 0;
   }
 
   #landing {
@@ -283,40 +315,44 @@ p {
   }
 
   #About {
+    background-color: #1d3557;
     margin-left: 0;
   }
 
   #WorkandEducation {
+    background-color: #457b9d;
     margin-left: 0;
   }
 
   #Skills {
+    background-color: #1d3557;
     margin-left: 0;
   }
 
   #Projects {
+    background-color: #457b9d;
     margin-left: 0;
   }
 
   #Testimonials {
+    background-color: #1d3557;
     margin-left: 0;
   }
 
   #Contact {
+    background-color: #457b9d;
     margin-left: 0;
   }
 
-  .inside {
-    min-width: 300px;
-  }
-
-  .navigation {
+  #last {
+    background-color: #1d3557;
+    margin-left: 0;
     display: none;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .sections.about {
+  /* .sections.about {
     left: 0;
   }
 
@@ -342,7 +378,7 @@ p {
 
   .sections.contact {
     left: 0;
-  }
+  } */
 }
 
 .icons > a {
@@ -372,4 +408,33 @@ p {
 .exp:hover {
   font-weight: bolder;
   transition: 0.2s;
+}
+
+/* progress bar */
+.progress {
+  background: #457b9d;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  border-radius: 100px;
+  background: #f1faee;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 68%;
+  }
 }
