@@ -419,18 +419,42 @@ p {
   position: relative;
   padding: 0 5px;
   display: flex;
-  height: 40px;
+  height: 30px;
 }
 
 .progress-value {
-  animation: load 3s normal forwards;
   border-radius: 100px;
   background: #f1faee;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
-@keyframes load {
+.progHtml {
+  animation: loadh 3s normal forwards;
+}
+
+.progCss {
+  animation: loadc 3s normal forwards;
+}
+
+.progJs {
+  animation: loadj 3s normal forwards;
+}
+
+.progJava {
+  animation: loadja 3s normal forwards;
+}
+
+@keyframes loadh {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes loadc {
   0% {
     width: 0;
   }
@@ -438,3 +462,37 @@ p {
     width: 40%;
   }
 }
+
+@keyframes loadj {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+@keyframes loadja {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+  transition: 0.3s;
+  background-color: rgba(29, 53, 87, 0.8);
+}
+
+.card {
+  border: none;
+  border-radius: 0%;
+}
+
