@@ -102,6 +102,10 @@ body::-webkit-scrollbar {
   transition: left 0.8s ease-out;
 }
 
+.sections.last {
+  left: -5600px;
+}
+
 #landing {
   background:
   /* top, transparent black, faked with gradient */ linear-gradient(
@@ -145,6 +149,12 @@ body::-webkit-scrollbar {
 #Contact {
   background-color: #457b9d;
   margin-left: 5000px;
+}
+
+#last {
+  background-color: #1d3557;
+  margin-left: 5800px;
+  width: 100vw;
 }
 
 .nav-btn {
@@ -252,7 +262,7 @@ p {
   }
 
   body {
-    width: 800px;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -346,13 +356,20 @@ p {
 
 .iconExp {
   width: 100px;
+  color: #1d3557;
 }
 
 .iconExp:hover {
   width: 120px;
+  color: #f1faee;
   transition: 0.2s;
 }
 
 .exp {
   border-bottom: rgba(241, 250, 238, 0.5) 0.1px solid;
+}
+
+.exp:hover {
+  font-weight: bolder;
+  transition: 0.2s;
 }
