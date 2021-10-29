@@ -612,6 +612,14 @@ p {
   display: none;
 }
 
+.linkablesMo {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .card {
     display: none;
@@ -623,5 +631,12 @@ p {
 
   .me {
     display: block;
+  }
+
+  .linkablesMo {
+    display: block;
+  }
+  .linkables {
+    display: none;
   }
 }
