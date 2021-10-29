@@ -251,6 +251,9 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  .card {
+    height: 70vh;
+  }
   .navigation {
     display: none;
   }
@@ -311,7 +314,7 @@ p {
 
   #landing {
     margin-left: 0;
-    display: none;
+    height: 100vh;
   }
 
   #About {
@@ -496,3 +499,10 @@ p {
   border-radius: 0%;
 }
 
+.carousel {
+  height: 80vh;
+}
+
+.circle {
+  border-radius: 50%;
+}
