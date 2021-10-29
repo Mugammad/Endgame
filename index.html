@@ -23,8 +23,12 @@
 </head>
 
 <body>
+    
     <nav class="navigation">
-        <img src="./images/logo.png" alt="Logo" width="150px">
+        <div class="row mage d-flex justify-content-center">
+            <img src="./images/logo.png" alt="Logo" width="150px">
+        </div>
+        
         <ul class="linkables">
             <li><button class="nav-btn" id="homeBtn" onclick="goToHome()">Home</button></li>
             <li><button class="nav-btn" id="aboutBtn" onclick="goToAbout()">About</button></li>
@@ -76,7 +80,7 @@
         </div>
     </div>
     <div class="sections" id="About" onclick="goToAbout()">
-        <div class="inside container">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">ABOUT</h1>
             <div class="line">
                 
@@ -127,7 +131,7 @@
     </div>
     <div class="sections " id="WorkandEducation" onclick="goToWork()">
     
-        <div class="inside container">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">WORK/EDUCATION</h1>
             <div class="lineTwo">
             
@@ -144,7 +148,7 @@
             <div class="row pt-4 pb-4 exp">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-5 iconExp" >
+                        <div class="col-md-5 iconExp mb-3" >
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mug-hot" class="svg-inline--fa fa-mug-hot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor"
                                     d="M400 192H32C14.25 192 0 206.3 0 224v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.75 0 112-50.25 112-112S461.8 192 400 192zM400 352H384V256h16C426.5 256 448 277.5 448 304S426.5 352 400 352zM107.9 100.7C120.3 107.1 128 121.4 128 136c0 13.25 10.75 23.89 24 23.89S176 148.1 176 135.7c0-31.34-16.83-60.64-43.91-76.45C119.7 52.03 112 38.63 112 24.28c0-13.25-10.75-24.14-24-24.14S64 11.03 64 24.28C64 55.63 80.83 84.92 107.9 100.7zM219.9 100.7C232.3 107.1 240 121.4 240 136c0 13.25 10.75 23.86 24 23.86S288 148.1 288 135.7c0-31.34-16.83-60.64-43.91-76.45C231.7 52.03 224 38.63 224 24.28c0-13.25-10.75-24.18-24-24.18S176 11.03 176 24.28C176 55.63 192.8 84.92 219.9 100.7z">
@@ -165,7 +169,7 @@
             <div class="row pt-4 pb-4 exp">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-5 iconExp">
+                        <div class="col-md-5 iconExp mb-3">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="graduation-cap" class="svg-inline--fa fa-graduation-cap" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
@@ -189,7 +193,7 @@
             <div class="row pt-4 pb-4 exp">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-5 iconExp">
+                        <div class="col-md-5 iconExp mb-3">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bank" class="svg-inline--fa fa-bank" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor"
@@ -211,7 +215,7 @@
             <div class="row pt-4 pb-4 exp">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-5 iconExp">
+                        <div class="col-md-5 iconExp mb-3">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hammer" class="svg-inline--fa fa-hammer"
                                 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                 <path fill="currentColor"
@@ -233,7 +237,7 @@
             <div class="row pt-4 pb-4 exp">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-5 iconExp"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                        <div class="col-md-5 iconExp mb-3"><svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="graduation-cap" class="svg-inline--fa fa-graduation-cap" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                                 <path fill="currentColor"
@@ -255,7 +259,7 @@
         </div>
     </div>
     <div class="sections " id="Skills" onclick="goToSkills()">
-        <div class="inside container">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">SKILLS</h1>
             <div class="line">
             
@@ -343,14 +347,14 @@
         </div>
     </div>
     <div class="sections " id="Projects" onclick="goToProjects()">
-        <div class="inside">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">PROJECTS</h1>
             <div class="lineTwo">
             
             </div>
             <div class="cards">
                 <div class="cardPadding pt-4  mt-5">
-                    <div class="card bg-dark text-white">
+                    <div class="card bg-dark text-white pone">
                         <img src="./images/breadsite.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center">
                             <a href="https://github.com/Mugammad/breadsite" target="_blank" class="btn btn-outline-light mx-1">GITHUB</a>
@@ -359,7 +363,7 @@
                       </div>
                 </div>
                 <div class="cardPadding pt-4  mt-5">
-                    <div class="card bg-dark text-white">
+                    <div class="card bg-dark text-white ptwo">
                         <img src="./images/travelsite.JPG" class="card-img" alt="...">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center">
                             <a href="https://github.com/Mugammad/traveler" target="_blank" class="btn btn-outline-light mx-1">GITHUB</a>
@@ -368,7 +372,7 @@
                       </div>
                 </div>
                 <div class="cardPadding pt-4  mt-5">
-                    <div class="card bg-dark text-white">
+                    <div class="card bg-dark text-white pthree">
                         <img src="./images/chaplin.png" class="card-img" alt="...">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center">
                             <a href="https://drive.google.com/drive/folders/1KmctXy6h5FiqsCI3of8wi-SVJvAJHxDa?usp=sharing" target="_blank" class="btn btn-outline-light mx-1">GOOGLE DRIVE LINK</a>
@@ -380,97 +384,103 @@
         </div>
     </div>
     <div class="sections " id="Testimonials" onclick="goToTestimonial()">
-        <div class="inside container">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">TESTIMONIALS</h1>
             <div class="line">
                 
             </div>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        
-                </div>
-                <div class="carousel-inner">
-                    <div class="row carousel-item active">
-                        <div class="p-5 ">
-                            <div class="p-5 pb-0">
-                                <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle col-md-12" alt="...">
+            <div class="row">
+                <div id="carouselExampleCaptions" class="carousel slide col-md-12" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="row carousel-item active">
+                            <div class="pt-5 px-5">
+                                <div class="pt-5 px-5">
+                                    <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle col-md-12" alt="...">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center pb-5">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>M. MUNEEB</h5>
+                                    <p>"One of the most humbled persons i ever met, down to earth, very well at working on a task and
+                                        getting the work
+                                        done.He
+                                        is excellent in thinking outside the box and is a great person to collab with."</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-center pb-5">
+                        <div class="carousel-item">
+                            <div class="pt-5 px-5">
+                                <div class="pt-5 px-5">
+                                    <img src="./images/Yaseen2.JPG" class="d-block w-100 p-5 circle" alt="...">
+                                </div>
+                            </div>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>M. MUNEEB</h5>
-                                <p>"One of the most humbled persons i ever met, down to earth, very well at working on a task and getting the work
-                                    done.He
-                                    is excellent in thinking outside the box and is a great person to collab with."</p>
+                                <h5>Yaseen Davids</h5>
+                                <p>"Muhammad is an amazing developer and a very hard worker, he has an exellent eye for design."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="pt-5 px-5">
+                                <div class="pt-5 px-5">
+                                    <img src="./images/Nadeem3.JPG" class="d-block w-100 p-5 circle" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Nadeem J</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="pt-5 px-5">
+                                <div class="pt-5 px-5">
+                                    <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="pt-5 px-5">
+                                <div class="pt-5 px-5">
+                                    <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="p-5">
-                            <div class="p-5">
-                                <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="p-5">
-                            <div class="p-5">
-                                <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="p-5">
-                            <div class="p-5">
-                                <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="p-5">
-                            <div class="p-5">
-                                <img src="./images/Muneeb3.JPG" class="d-block w-100 p-5 circle" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+            
         </div>
     </div>
     <div class="sections " id="Contact" onclick="goToContact()">
-        <div class="inside">
+        <div class="inside container p-5">
             <h1 class="mb-3 ">CONTACT</h1>
             <div class="lineTwo">
         

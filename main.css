@@ -198,7 +198,7 @@ body::-webkit-scrollbar {
 }
 
 .inside {
-  padding: 70px;
+  /* padding: 70px; */
   color: #f1faee;
 }
 
@@ -251,12 +251,15 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  .card {
-    height: 70vh;
-  }
   .navigation {
+    width: 100%;
+    left: -100%;
+  }
+
+  #footerer {
     display: none;
   }
+
   .sections {
     height: fit-content;
     width: auto;
@@ -511,4 +514,10 @@ p {
   position: revert;
   text-align: center;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    display: none;
+  }
 }
