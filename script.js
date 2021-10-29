@@ -14,6 +14,10 @@ function openMenu(){
   menu.classList.toggle("active")
 }
 
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
 
 
 function goToAbout(){

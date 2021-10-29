@@ -252,8 +252,22 @@ p {
 
 @media screen and (max-width: 800px) {
   .navigation {
+    position: fixed;
     width: 100%;
     left: -100%;
+    z-index: 4;
+    transition: 0.3s linear;
+  }
+
+  .mage {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navigation.active {
+    left: 0;
+    transition: 0.3s linear;
   }
 
   #footerer {
@@ -516,8 +530,58 @@ p {
   vertical-align: middle;
 }
 
+.menu {
+  position: fixed;
+  display: none;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  background-color: #1d3557;
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* hamburger thing */
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #457b9d;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* end of hamburger thing */
+
 @media screen and (max-width: 800px) {
   .card {
     display: none;
+  }
+
+  .menu {
+    display: block;
   }
 }
