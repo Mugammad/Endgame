@@ -609,6 +609,7 @@ p {
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 10px;
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -617,6 +618,10 @@ p {
   }
 
   .menu {
+    display: block;
+  }
+
+  .me {
     display: block;
   }
 }
