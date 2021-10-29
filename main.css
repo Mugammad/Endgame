@@ -506,3 +506,9 @@ p {
 .circle {
   border-radius: 50%;
 }
+
+.carousel-caption {
+  position: revert;
+  text-align: center;
+  vertical-align: middle;
+}
