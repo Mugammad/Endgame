@@ -625,7 +625,22 @@ p {
   display: none;
 }
 
+.cardsMobile {
+  display: none;
+}
+
+.cardBtnMobile {
+  background-color: #457b9d;
+}
+
+.cardsMobile>.card {
+  background-color: #1d3557;
+}
+
 @media screen and (max-width: 800px) {
+  .cardsMobile {
+    display: block;
+  }
   .inside {
     text-align: center;
   }
@@ -633,7 +648,7 @@ p {
   h1 {
     text-align: left;
   }
-  .card {
+  .cards {
     display: none;
   }
 
