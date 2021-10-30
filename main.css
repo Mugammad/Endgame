@@ -276,6 +276,7 @@ p {
   }
 
   .sections {
+    padding-top: 5vh;
     height: fit-content;
     width: auto;
     position: relative;
