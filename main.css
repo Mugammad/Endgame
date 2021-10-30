@@ -580,8 +580,8 @@ p {
 
 .menu {
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 10px;
   z-index: 5;
   background-color: #1d3557;
   border: none;
@@ -593,7 +593,7 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  padding-top: 10px;
+  padding: 0;
 }
 
 /* end of hamburger thing */
@@ -626,8 +626,20 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  .inside {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: left;
+  }
   .card {
     display: none;
+  }
+
+  .iconExp {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .menu {
