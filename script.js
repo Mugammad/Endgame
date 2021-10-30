@@ -8,16 +8,16 @@ const buttonContact = document.querySelector('#contactBtn')
 
 var place;
 
-function openMenu(){
-  let menu = document.getElementsByClassName("navigation")[0];
-  
-  menu.classList.toggle("active")
-}
 
 function myFunction(x) {
     x.classList.toggle("change");
   }
 
+  function openMenu(){
+    let menu = document.getElementsByClassName("navigation")[0];
+    menu.classList.toggle("active")
+  }
+  
 
 
 function goToAbout(){

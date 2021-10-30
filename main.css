@@ -261,7 +261,7 @@ p {
 
   .mage {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -501,6 +501,8 @@ p {
     width: 60%;
   }
 }
+
+/* end of pragress bar */
 
 .card-img-overlay {
   opacity: 0;
