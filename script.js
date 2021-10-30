@@ -9,13 +9,24 @@ const buttonContact = document.querySelector('#contactBtn')
 var place;
 
 
-function myFunction(x) {
-    x.classList.toggle("change");
+function myFunction() {
+    let barOne = document.getElementsByClassName("bar1")[0];
+    let barTwo = document.getElementsByClassName("bar2")[0];
+    let barThree = document.getElementsByClassName("bar3")[0];
+    let conTain = document.getElementsByClassName("container1")[0];
+
+    barOne.classList.toggle("change");
+    barTwo.classList.toggle("change");
+    barThree.classList.toggle("change");
+    conTain.classList.toggle("change");
   }
 
   function openMenu(){
     let menu = document.getElementsByClassName("navigation")[0];
+    
+
     menu.classList.toggle("active")
+    
   }
   
 
