@@ -659,6 +659,9 @@ p {
 
 
 @media screen and (max-width: 800px) {
+  .carousel {
+    height: 100vh;
+  }
   .cardsMobile {
     display: block;
   }
