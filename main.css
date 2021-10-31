@@ -245,7 +245,7 @@ p {
 }
 
 #footerer {
-  color: #f1faee;
+  color: rgba(241, 250, 238, 0.3);
   bottom: 0;
   position: absolute;
 }
