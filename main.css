@@ -715,6 +715,19 @@ p {
   transition: 0.2s;
 }
 
+footer {
+  background-color: #1d3557;
+  color: #f1faee;
+  text-align: center;
+  display: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
 @media screen and (max-width: 800px) {
   /* .carousel {
     height: 100vh;
@@ -727,6 +740,10 @@ p {
   }
   
   .carousel-indicators {
+    display: block;
+  }
+
+  footer {
     display: block;
   }
 
