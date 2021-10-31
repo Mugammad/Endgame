@@ -649,6 +649,12 @@ p {
 
 .carousel-caption {
   text-align: center;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+.carousel-indicators {
+  display: none;
 }
 
 
@@ -659,6 +665,34 @@ p {
   .inside {
     text-align: center;
   }
+
+  .crslImageOut {
+    padding: 0 !important;
+    padding-left: 10% !important;
+    padding-right: 5% !important;
+    padding-top: 15% !important; 
+  }
+
+  .crslImageIn {
+    padding: 0 !important;
+  }
+
+  .crslImage {
+    padding: 0 !important;
+  }
+
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: block;
+  }
+
 
   h1 {
     text-align: left;
