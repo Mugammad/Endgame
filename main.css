@@ -436,7 +436,7 @@ p {
 .progress {
   background: #457b9d;
   justify-content: flex-start;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   align-items: center;
   position: relative;
   padding: 0 5px;
@@ -445,7 +445,7 @@ p {
 }
 
 .progress-value {
-  border-radius: 100px;
+  /* border-radius: 100px; */
   background: #f1faee;
   height: 20px;
   width: 0;
@@ -636,6 +636,17 @@ p {
 .cardsMobile>.card {
   background-color: #1d3557;
 }
+
+.iconSkills {
+  color: #457b9d;
+  transition: 0.2s;
+}
+
+.iconSkills:hover {
+  color: #f1faee;
+  width: 120px;
+}
+
 
 @media screen and (max-width: 800px) {
   .cardsMobile {
