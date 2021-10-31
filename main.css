@@ -717,7 +717,7 @@ p {
 
 footer {
   background-color: #1d3557;
-  color: #f1faee;
+  color: rgba(241, 250, 238, 0.3);
   text-align: center;
   display: none;
 }
