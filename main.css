@@ -647,6 +647,10 @@ p {
   width: 120px;
 }
 
+.carousel-caption {
+  text-align: center;
+}
+
 
 @media screen and (max-width: 800px) {
   .cardsMobile {
