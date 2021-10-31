@@ -680,6 +680,7 @@ p {
 
 .iconsContact, .iconsContact> a {
   color: #1d3557;
+  width: 60px;
 }
 
 .iconsContact>a:hover {
