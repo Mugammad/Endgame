@@ -678,6 +678,41 @@ p {
   margin-right: auto;
 }
 
+.iconsContact, .iconsContact> a {
+  color: #1d3557;
+}
+
+.iconsContact>a:hover {
+  color: #f1faee;
+  transition: 0.3s;
+}
+
+.wordsContact {
+  text-align: center;
+}
+
+.contactSection {
+  border-top: rgba(241, 250, 238, 0.5) 1px solid;
+  border-bottom: rgba(241, 250, 238, 0.5) 1px solid;
+}
+
+.form-control {
+  background-color: #1d3557;
+  border: 0px;
+  border-radius: 0%;
+}
+
+.contactb {
+  background-color: #457b9d;
+  border: 5px solid #1d3557;
+  color: #f1faee;
+  padding: 5px 20px;
+}
+
+.contactb:hover {
+  background-color: #1d3557;
+  transition: 0.2s;
+}
 
 @media screen and (max-width: 800px) {
   /* .carousel {
