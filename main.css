@@ -640,6 +640,7 @@ p {
 }
 
 .iconSkills {
+  width: 100px;
   color: #457b9d;
   transition: 0.2s;
 }
