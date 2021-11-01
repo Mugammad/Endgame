@@ -247,8 +247,12 @@ p {
 #footerer {
   color: rgba(241, 250, 238, 0.3);
   bottom: 0;
-  position: absolute;
+  position: fixed;
+  pointer-events: none;
+  
 }
+
+
 
 @media screen and (max-width: 800px) {
   .navigation {
