@@ -2,6 +2,7 @@
 
 body {
   font-family: "Fira Sans Condensed", sans-serif;
+  overflow: hidden;
 }
 
 .navigation {
@@ -249,10 +250,7 @@ p {
   bottom: 0;
   position: fixed;
   pointer-events: none;
-  
 }
-
-
 
 @media screen and (max-width: 800px) {
   .navigation {
@@ -564,7 +562,9 @@ p {
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   background-color: #457b9d;
@@ -577,7 +577,9 @@ p {
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+  opacity: 0;
+}
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -639,7 +641,7 @@ p {
   background-color: #457b9d;
 }
 
-.cardsMobile>.card {
+.cardsMobile > .card {
   background-color: #1d3557;
 }
 
@@ -683,12 +685,13 @@ p {
   margin-right: auto;
 }
 
-.iconsContact, .iconsContact> a {
+.iconsContact,
+.iconsContact > a {
   color: #1d3557;
   width: 60px;
 }
 
-.iconsContact>a:hover {
+.iconsContact > a:hover {
   color: #f1faee;
   transition: 0.3s;
 }
@@ -732,7 +735,6 @@ p {
   margin-bottom: 0;
 }
 
-
 @media screen and (max-width: 800px) {
   /* .carousel {
     height: 100vh;
@@ -743,7 +745,7 @@ p {
   .inside {
     text-align: center;
   }
-  
+
   .carousel-indicators {
     display: block;
   }
@@ -751,7 +753,6 @@ p {
   footer {
     display: block;
   }
-
 
   h1 {
     text-align: left;
