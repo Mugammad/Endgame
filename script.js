@@ -8,6 +8,33 @@ const buttonContact = document.querySelector('#contactBtn')
 
 var place;
 
+function wordShuffle (words, id){
+  var target = document.getElementById(id);
+  var i = 0;
+  var shuffleShow = document.getElementById('theWords');
+  var visible = true;
+   window.setInterval(function(){
+      target.innerHTML = words[i];
+      i++;
+      if(i == words.length){
+      i = 0;
+    }
+  }, 4000)
+  window.setInterval(function() {
+    if (visible === true) {
+      shuffleShow.className = 'shuffling hidden'
+      visible = false;
+
+    } else {
+      shuffleShow.className = 'shuffling'
+
+      visible = true;
+    }
+  }, 2000)
+}
+
+wordShuffle(['INTROVERT.', 'CODER.', 'ARTIST.', 'GAMER.', 'KINDA CRINGE?', 'WHAT IS THIS BG?'], "text")
+
 
 function myFunction() {
     let barOne = document.getElementsByClassName("bar1")[0];

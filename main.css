@@ -781,3 +781,47 @@ p {
     display: none;
   }
 }
+
+.lastName {
+  display: flex;
+  justify-content: end;
+}
+
+.myDescLast {
+  margin-left: auto;
+  margin-top: 60vh;
+}
+.myName {
+  color: #457b9d;
+  border-top: #f1faee 1px solid;
+  border-bottom: #f1faee 1px solid;
+  font-weight: 500;
+}
+
+#last {
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url(./images/last_bg.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* for my animation text effect */
+
+.hidden {
+  opacity: 0;
+  transition: 1s;
+}
+
+.shuffling {
+  font-size: 5rem;
+  display: flex;
+  justify-content: start;
+  transition: 1s;
+}
+
+/* end of animation text effect */
