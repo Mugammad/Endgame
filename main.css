@@ -375,34 +375,115 @@ p {
   }
 }
 
-@media screen and (max-width: 800px) {
-  /* .sections.about {
+@media screen and (max-width: 1760px) {
+  .navigation {
+    width: 175px;
+  }
+  /* this be the classroom for the sections it affects all of them */
+  .sections {
+    height: 100vh;
+    width: 700px;
+    position: absolute;
+    box-sizing: border-box;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
     left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sections.about {
+    left: -700px;
+    transition: left 0.8s ease-out;
   }
 
   .sections.Home {
     left: 0;
+    transition: left 0.8s ease-out;
   }
 
   .sections.work {
-    left: 0;
+    left: -1400px;
+    transition: left 0.8s ease-out;
   }
 
   .sections.skills {
-    left: 0;
+    left: -2100px;
+    transition: left 0.8s ease-out;
   }
 
   .sections.projects {
-    left: 0;
+    left: -2800px;
+    transition: left 0.8s ease-out;
   }
 
   .sections.testimonial {
-    left: 0;
+    left: -3500px;
+    transition: left 0.8s ease-out;
   }
 
   .sections.contact {
-    left: 0;
-  } */
+    left: -4200px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.last {
+    left: -4900px;
+  }
+
+  #landing {
+    background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* bottom, image */ url(./images/Breda_bg.JPG);
+
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 175px;
+  }
+
+  #About {
+    background-color: #1d3557;
+    margin-left: 875px;
+  }
+
+  #WorkandEducation {
+    background-color: #457b9d;
+    margin-left: 1575px;
+  }
+
+  #Skills {
+    background-color: #1d3557;
+    margin-left: 2275px;
+  }
+
+  #Projects {
+    background-color: #457b9d;
+    margin-left: 2975px;
+  }
+
+  #Testimonials {
+    background-color: #1d3557;
+    margin-left: 3675px;
+  }
+
+  #Contact {
+    background-color: #457b9d;
+    margin-left: 4375px;
+  }
+
+  #last {
+    background-color: #1d3557;
+    margin-left: 5075px;
+    width: 100vw;
+  }
 }
 
 .icons > a {
@@ -818,7 +899,7 @@ p {
 }
 
 .shuffling {
-  font-size: 5rem;
+  font-size: 4rem;
   display: flex;
   justify-content: start;
   transition: 1s;
