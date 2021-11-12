@@ -375,7 +375,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1760px) {
+@media screen and (max-width: 1760px) and (min-width: 800px) {
   .navigation {
     width: 175px;
   }
