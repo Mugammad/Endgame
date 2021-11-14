@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    /* bottom, image */ url(./images/Breda_bg.JPG);
+    /* bottom, image */ url(./assets/images/landing_bg.JPG);
 
   background-size: cover;
   background-position: center;
@@ -436,16 +436,6 @@ p {
   }
 
   #landing {
-    background:
-  /* top, transparent black, faked with gradient */ linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-      ),
-      /* bottom, image */ url(./images/Breda_bg.JPG);
-
-    background-size: cover;
-    background-position: center;
-
     margin-left: 175px;
   }
 
@@ -885,7 +875,7 @@ p {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    /* bottom, image */ url(./images/last_bg.jpg);
+    /* bottom, image */ url(./assets/images/last_bg.jpg);
 
   background-size: cover;
   background-position: center;
