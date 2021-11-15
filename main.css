@@ -375,7 +375,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1760px) and (min-width: 800px) {
+@media screen and (max-width: 1760px) and (min-width: 1560px) {
   .navigation {
     width: 175px;
   }
@@ -475,6 +475,8 @@ p {
     width: 100vw;
   }
 }
+
+
 
 .icons > a {
   color: #457b9d;
@@ -896,3 +898,135 @@ p {
 }
 
 /* end of animation text effect */
+
+@media screen and (max-width: 1560px) and (min-width: 800px) {
+  .navigation {
+    width: 153px;
+  }
+  /* this be the classroom for the sections it affects all of them */
+  .sections {
+    height: 100vh;
+    width: 613px;
+    position: absolute;
+    box-sizing: border-box;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sections.about {
+    left: -613px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.Home {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.work {
+    left: -1226px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.skills {
+    left: -1839px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.projects {
+    left: -2452px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.testimonial {
+    left: -3065px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.contact {
+    left: -3678px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.last {
+    left: -4291px;
+  }
+
+  #landing {
+    margin-left: 153px;
+  }
+
+  #About {
+    background-color: #1d3557;
+    margin-left: 766px;
+  }
+
+  #WorkandEducation {
+    background-color: #457b9d;
+    margin-left: 1379px;
+  }
+
+  #Skills {
+    background-color: #1d3557;
+    margin-left: 1992px;
+  }
+
+  #Projects {
+    background-color: #457b9d;
+    margin-left: 2605px;
+  }
+
+  #Testimonials {
+    background-color: #1d3557;
+    margin-left: 3218px;
+  }
+
+  #Contact {
+    background-color: #457b9d;
+    margin-left: 3831px;
+  }
+
+  #last {
+    background-color: #1d3557;
+    margin-left: 4444px;
+    width: 100vw;
+  }
+
+  .icons > a {
+    color: #457b9d;
+  }
+  
+  .icons > a:hover {
+    color: #f1faee;
+    transition: 0.2s;
+  }
+  
+  .iconExp {
+    width: 90px;
+    color: #1d3557;
+  }
+  
+  .iconExp:hover {
+    width: 110px;
+    color: #f1faee;
+    transition: 0.2s;
+  }
+
+  .iconSkills {
+    width: 90px;
+    color: #457b9d;
+    transition: 0.2s;
+  }
+  
+  .iconSkills:hover {
+    color: #f1faee;
+    width: 110px;
+  }
+}
