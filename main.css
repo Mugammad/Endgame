@@ -247,7 +247,7 @@ p {
 
 #footerer {
   color: rgba(241, 250, 238, 0.3);
-  bottom: 0;
+  bottom: 10px;
   position: fixed;
   pointer-events: none;
 }
@@ -475,8 +475,6 @@ p {
     width: 100vw;
   }
 }
-
-
 
 .icons > a {
   color: #457b9d;
@@ -741,7 +739,10 @@ p {
 }
 
 .crslMage {
-  padding: 25%;
+  padding-left: 20%;
+  margin-bottom: 50px;
+  padding-right: 20%;
+  margin-top: 70px;
   border-radius: 50%;
 }
 
@@ -749,7 +750,6 @@ p {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-  margin-top: -20%;
 }
 
 .inside {
@@ -900,6 +900,9 @@ p {
 /* end of animation text effect */
 
 @media screen and (max-width: 1560px) and (min-width: 800px) {
+  #footerer {
+    font-size: small;
+  }
   .navigation {
     width: 153px;
   }
@@ -1002,17 +1005,17 @@ p {
   .icons > a {
     color: #457b9d;
   }
-  
+
   .icons > a:hover {
     color: #f1faee;
     transition: 0.2s;
   }
-  
+
   .iconExp {
     width: 90px;
     color: #1d3557;
   }
-  
+
   .iconExp:hover {
     width: 110px;
     color: #f1faee;
@@ -1024,7 +1027,7 @@ p {
     color: #457b9d;
     transition: 0.2s;
   }
-  
+
   .iconSkills:hover {
     color: #f1faee;
     width: 110px;
