@@ -898,7 +898,7 @@ p {
 
 /* end of animation text effect */
 
-@media screen and (max-width: 1560px) and (min-width: 800px) {
+@media screen and (max-width: 1560px) and (min-width: 1350px) {
   #footerer {
     font-size: small;
   }
@@ -1029,5 +1029,163 @@ p {
   .iconSkills:hover {
     color: #f1faee;
     width: 110px;
+  }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 800px) {
+  #footerer {
+    font-size: small;
+  }
+  .navigation {
+    width: 138px;
+  }
+  /* this be the classroom for the sections it affects all of them */
+  .sections {
+    width: 552px;
+    position: absolute;
+    box-sizing: border-box;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sections.about {
+    left: -552px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.Home {
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.work {
+    left: -1104px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.skills {
+    left: -1656px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.projects {
+    left: -2208px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.testimonial {
+    left: -2760px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.contact {
+    left: -3312px;
+    transition: left 0.8s ease-out;
+  }
+
+  .sections.last {
+    left: -3864px;
+  }
+
+  #landing {
+    margin-left: 138px;
+  }
+
+  #About {
+    background-color: #1d3557;
+    margin-left: 690px;
+  }
+
+  #WorkandEducation {
+    background-color: #457b9d;
+    margin-left: 1242px;
+  }
+
+  #Skills {
+    background-color: #1d3557;
+    margin-left: 1794px;
+  }
+
+  #Projects {
+    background-color: #457b9d;
+    margin-left: 2346px;
+  }
+
+  #Testimonials {
+    background-color: #1d3557;
+    margin-left: 2898px;
+  }
+
+  #Contact {
+    background-color: #457b9d;
+    margin-left: 3450px;
+  }
+
+  #last {
+    background-color: #1d3557;
+    margin-left: 3972px;
+    width: 100vw;
+  }
+
+  .icons > a {
+    color: #457b9d;
+  }
+
+  .icons > a:hover {
+    color: #f1faee;
+    transition: 0.2s;
+  }
+
+  .iconExp {
+    width: 70px;
+    color: #1d3557;
+  }
+
+  .iconExp:hover {
+    width: 90px;
+    color: #f1faee;
+    transition: 0.2s;
+  }
+
+  .iconSkills {
+    width: 70px;
+    color: #457b9d;
+    transition: 0.2s;
+  }
+
+  .iconSkills:hover {
+    color: #f1faee;
+    width: 90px;
+  }
+
+  h4 {
+    font-size: large;
+  }
+
+  h6 {
+    font-size: medium;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  .p-5 {
+    padding: 0px;
   }
 }
