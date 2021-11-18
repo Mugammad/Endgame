@@ -886,14 +886,14 @@ p {
 
 .hidden {
   opacity: 0;
-  transition: 1s;
+  transition: 2s;
 }
 
 .shuffling {
   font-size: 4rem;
   display: flex;
   justify-content: start;
-  transition: 1s;
+  transition: 2s;
 }
 
 /* end of animation text effect */
