@@ -1130,7 +1130,7 @@ p {
 
   #last {
     background-color: #1d3557;
-    margin-left: 3972px;
+    margin-left: 4002px;
     width: 100vw;
   }
 
@@ -1183,9 +1183,5 @@ p {
 
   h1 {
     font-size: xx-large;
-  }
-
-  .p-5 {
-    padding: 0px;
   }
 }
