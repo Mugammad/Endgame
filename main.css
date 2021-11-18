@@ -381,7 +381,6 @@ p {
   }
   /* this be the classroom for the sections it affects all of them */
   .sections {
-    height: 100vh;
     width: 700px;
     position: absolute;
     box-sizing: border-box;
@@ -908,7 +907,6 @@ p {
   }
   /* this be the classroom for the sections it affects all of them */
   .sections {
-    height: 100vh;
     width: 613px;
     position: absolute;
     box-sizing: border-box;
