@@ -898,6 +898,46 @@ p {
 
 /* end of animation text effect */
 
+.indicator {
+  width: 40px;
+  z-index: 5;
+  position: absolute;
+  right: -20px;
+  top: 170px;
+  color: #457b9d;
+  transition: 0.8s ease-out;
+}
+
+.indicatorAbout {
+  top: 222px;
+  transition: 0.8s ease-out;
+}
+
+.indicatorWork {
+  top: 277px;
+  transition: 0.8s ease-out;
+}
+
+.indicatorSkills {
+  top: 332px;
+  transition: 0.8s ease-out;
+}
+
+.indicatorProjects {
+  top: 387px;
+  transition: 0.8s ease-out;
+}
+
+.indicatorTest {
+  top: 442px;
+  transition: 0.8s ease-out;
+}
+
+.indicatorContact {
+  top: 497px;
+  transition: 0.8s ease-out;
+}
+
 @media screen and (max-width: 1560px) and (min-width: 1350px) {
   #footerer {
     font-size: small;

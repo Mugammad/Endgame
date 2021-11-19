@@ -8,6 +8,14 @@ const buttonContact = document.querySelector('#contactBtn')
 
 var place;
 
+// function indicatorFunction(){
+//     let indicate = document.getElementsByClassName("indicator")[0]
+    
+//     if(place !== 'visitedAbout'){
+        
+//     }
+// }
+
 function wordShuffle (words, id){
   var target = document.getElementById(id);
   var i = 0;
@@ -55,8 +63,8 @@ function myFunction() {
     menu.classList.toggle("active")
     
   }
-  
 
+let indicate = document.getElementsByClassName("indicator")[0]
 
 function goToAbout(){
 
@@ -65,6 +73,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
+        indicate.classList.toggle("indicatorAbout")
     }
     
 
@@ -73,7 +82,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -82,7 +91,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -91,7 +100,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -100,7 +109,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -109,7 +118,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -159,6 +168,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
+        indicate.classList.toggle("indicatorAbout")
 
 
     }
@@ -168,7 +178,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -177,7 +187,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -186,7 +196,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -195,7 +205,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -204,7 +214,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -237,6 +247,8 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
+
+        indicate.classList.toggle("indicatorWork")
     
     }
 
@@ -247,7 +259,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate.classList.toggle("indicatorAbout")
 
     }
 
@@ -256,7 +268,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -265,7 +277,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -274,7 +286,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -283,7 +295,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -315,7 +327,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -324,7 +336,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate.classList.toggle("indicatorAbout")
 
     }
 
@@ -333,7 +345,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -342,7 +354,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -351,7 +363,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -360,7 +372,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -393,7 +405,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -402,7 +414,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate.classList.toggle("indicatorAbout")
 
     }
 
@@ -411,7 +423,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -420,7 +432,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -429,7 +441,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -438,7 +450,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -470,7 +482,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
@@ -479,7 +491,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate.classList.toggle("indicatorAbout")
 
     }
 
@@ -488,7 +500,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -497,7 +509,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -506,7 +518,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -515,7 +527,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -548,7 +560,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate.classList.toggle("indicatorContact")
 
     }
 
@@ -557,7 +569,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate.classList.toggle("indicatorAbout")
 
     }
 
@@ -566,7 +578,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate.classList.toggle("indicatorWork")
 
     }
 
@@ -575,7 +587,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate.classList.toggle("indicatorSkills")
 
     }
 
@@ -584,7 +596,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate.classList.toggle("indicatorProjects")
 
     }
 
@@ -593,7 +605,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate.classList.toggle("indicatorTest")
 
     }
 
