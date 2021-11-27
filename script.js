@@ -65,15 +65,25 @@ function myFunction() {
   }
 
 let indicate = document.getElementsByClassName("indicator")[0]
+let indicate1 = document.getElementsByClassName("indicator")[1]
+let indicate2 = document.getElementsByClassName("indicator")[2]
+let indicate3 = document.getElementsByClassName("indicator")[3]
+let indicate4 = document.getElementsByClassName("indicator")[4]
+let indicate5 = document.getElementsByClassName("indicator")[5]
+let indicate6 = document.getElementsByClassName("indicator")[6]
 
 function goToAbout(){
+
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
 
     if(place !== 'visitedAbout'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
     }
     
 
@@ -82,7 +92,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -91,7 +101,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -100,7 +110,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -109,7 +119,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -118,7 +128,7 @@ function goToAbout(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -163,12 +173,16 @@ function goToAbout(){
 
 function goToHome(){
 
+    if(place != 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place == 'visitedAbout'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
 
     }
@@ -178,7 +192,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -187,7 +201,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -196,7 +210,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -205,7 +219,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -214,7 +228,7 @@ function goToHome(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -242,13 +256,17 @@ function goToHome(){
 
 function goToWork(){
 
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place !== 'visitedWork'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
 
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
     
     }
 
@@ -259,7 +277,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -268,7 +286,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -277,7 +295,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -286,7 +304,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -295,7 +313,7 @@ function goToWork(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -322,12 +340,16 @@ function goToWork(){
 
 function goToSkills(){
 
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place !== 'visitedSkills'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -336,7 +358,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -345,7 +367,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -354,7 +376,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -363,7 +385,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -372,7 +394,7 @@ function goToSkills(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -400,12 +422,16 @@ function goToSkills(){
 
 function goToProjects(){
 
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place !== 'visitedProjects'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -414,7 +440,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -423,7 +449,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -432,7 +458,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -441,7 +467,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -450,7 +476,7 @@ function goToProjects(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -477,12 +503,16 @@ function goToProjects(){
 
 function goToTestimonial(){
 
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place !== 'visitedTestimonial'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -491,7 +521,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -500,7 +530,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -509,7 +539,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -518,7 +548,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -527,7 +557,7 @@ function goToTestimonial(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -555,12 +585,16 @@ function goToTestimonial(){
 
 function goToContact(){
 
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
+
     if(place !== 'visitedContact'){
         for (let i = 0; i < 8; i++) {
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-        indicate.classList.toggle("indicatorContact")
+        indicate6.classList.toggle("indShow")
 
     }
 
@@ -569,7 +603,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-        indicate.classList.toggle("indicatorAbout")
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -578,7 +612,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-        indicate.classList.toggle("indicatorWork")
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -587,7 +621,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-        indicate.classList.toggle("indicatorSkills")
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -596,7 +630,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-        indicate.classList.toggle("indicatorProjects")
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -605,7 +639,7 @@ function goToContact(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-        indicate.classList.toggle("indicatorTest")
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -632,6 +666,10 @@ function goToContact(){
 }
 
 function goToLast(){
+
+    if(place == 'visitedHome'){
+        indicate.classList.toggle("indShow")
+    }
 
     if(place !== 'visitedLast'){
         for (let i = 0; i < 8; i++) {

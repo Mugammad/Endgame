@@ -162,9 +162,8 @@ body::-webkit-scrollbar {
   background-color: #1d3557; /* Green */
   border: none;
   color: #f1faee;
-  padding: 15px 32px;
+  padding: 10px 0px;
   padding-left: 0;
-  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -888,43 +887,19 @@ p {
 /* end of animation text effect */
 
 .indicator {
-  width: 40px;
+  width: 10px;
   z-index: 5;
-  position: absolute;
+  /* position: absolute; */
   right: -20px;
-  top: 170px;
+  /* top: 170px; */
   color: #457b9d;
-  transition: 0.8s ease-out;
+  transition: 0.2s ease-out;
+  opacity: 0;
 }
 
-.indicatorAbout {
-  top: 222px;
-  transition: 0.8s ease-out;
-}
-
-.indicatorWork {
-  top: 277px;
-  transition: 0.8s ease-out;
-}
-
-.indicatorSkills {
-  top: 332px;
-  transition: 0.8s ease-out;
-}
-
-.indicatorProjects {
-  top: 387px;
-  transition: 0.8s ease-out;
-}
-
-.indicatorTest {
-  top: 442px;
-  transition: 0.8s ease-out;
-}
-
-.indicatorContact {
-  top: 497px;
-  transition: 0.8s ease-out;
+.indShow {
+  opacity: 1;
+  transition: 0.2s ease-out;
 }
 
 @media screen and (max-width: 1560px) and (min-width: 1350px) {
