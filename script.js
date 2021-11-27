@@ -685,7 +685,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("about")
         }
-
+        indicate1.classList.toggle("indShow")
 
     }
 
@@ -694,7 +694,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("work")
         }
-
+        indicate2.classList.toggle("indShow")
 
     }
 
@@ -703,7 +703,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("skills")
         }
-
+        indicate3.classList.toggle("indShow")
 
     }
 
@@ -712,7 +712,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("projects")
         }
-
+        indicate4.classList.toggle("indShow")
 
     }
 
@@ -721,7 +721,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("testimonial")
         }
-
+        indicate5.classList.toggle("indShow")
 
     }
 
@@ -730,7 +730,7 @@ function goToLast(){
             let location = document.getElementsByClassName("sections")[i];
             location.classList.toggle("contact")
         }
-
+        indicate6.classList.toggle("indShow")
 
     }
 
