@@ -219,6 +219,7 @@ body::-webkit-scrollbar {
 
 .myInfo {
   border-bottom: rgba(241, 250, 238, 0.5) 1px solid;
+  padding-bottom: 1rem;
 }
 
 .bio {
