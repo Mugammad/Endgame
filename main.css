@@ -121,6 +121,7 @@ body::-webkit-scrollbar {
   margin-left: 200px;
 }
 
+
 #About {
   background-color: #1d3557;
   margin-left: 1000px;
@@ -878,7 +879,7 @@ p {
 }
 
 .shuffling {
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   justify-content: start;
   transition: 2s;
@@ -1202,5 +1203,9 @@ p {
 
   .contactSection h1, .skillText>h1{
     font-size: xx-large;
+  }
+
+  .name {
+    width: 45%;
   }
 }
