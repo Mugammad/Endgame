@@ -339,37 +339,30 @@ p {
   }
 
   #About {
-    background-color: #1d3557;
     margin-left: 0;
   }
 
   #WorkandEducation {
-    background-color: #457b9d;
     margin-left: 0;
   }
 
   #Skills {
-    background-color: #1d3557;
     margin-left: 0;
   }
 
   #Projects {
-    background-color: #457b9d;
     margin-left: 0;
   }
 
   #Testimonials {
-    background-color: #1d3557;
     margin-left: 0;
   }
 
   #Contact {
-    background-color: #457b9d;
     margin-left: 0;
   }
 
   #last {
-    background-color: #1d3557;
     margin-left: 0;
     display: none;
   }
@@ -379,6 +372,8 @@ p {
   .navigation {
     width: 175px;
   }
+
+  
   /* this be the classroom for the sections it affects all of them */
   .sections {
     width: 700px;
@@ -439,37 +434,30 @@ p {
   }
 
   #About {
-    background-color: #1d3557;
     margin-left: 875px;
   }
 
   #WorkandEducation {
-    background-color: #457b9d;
     margin-left: 1575px;
   }
 
   #Skills {
-    background-color: #1d3557;
     margin-left: 2275px;
   }
 
   #Projects {
-    background-color: #457b9d;
     margin-left: 2975px;
   }
 
   #Testimonials {
-    background-color: #1d3557;
     margin-left: 3675px;
   }
 
   #Contact {
-    background-color: #457b9d;
     margin-left: 4375px;
   }
 
   #last {
-    background-color: #1d3557;
     margin-left: 5075px;
     width: 100vw;
   }
@@ -1005,37 +993,30 @@ p {
   }
 
   #About {
-    background-color: #1d3557;
     margin-left: 766px;
   }
 
   #WorkandEducation {
-    background-color: #457b9d;
     margin-left: 1379px;
   }
 
   #Skills {
-    background-color: #1d3557;
     margin-left: 1992px;
   }
 
   #Projects {
-    background-color: #457b9d;
     margin-left: 2605px;
   }
 
   #Testimonials {
-    background-color: #1d3557;
     margin-left: 3218px;
   }
 
   #Contact {
-    background-color: #457b9d;
     margin-left: 3831px;
   }
 
   #last {
-    background-color: #1d3557;
     margin-left: 4444px;
     width: 100vw;
   }
@@ -1091,6 +1072,10 @@ p {
     transition: left 0.8s ease-out;
   }
 
+  #last {
+    max-width: 1212px;
+  }
+
   .sections::-webkit-scrollbar {
     display: none;
   }
@@ -1139,37 +1124,30 @@ p {
   }
 
   #About {
-    background-color: #1d3557;
     margin-left: 690px;
   }
 
   #WorkandEducation {
-    background-color: #457b9d;
     margin-left: 1242px;
   }
 
   #Skills {
-    background-color: #1d3557;
     margin-left: 1794px;
   }
 
   #Projects {
-    background-color: #457b9d;
     margin-left: 2346px;
   }
 
   #Testimonials {
-    background-color: #1d3557;
     margin-left: 2898px;
   }
 
   #Contact {
-    background-color: #457b9d;
     margin-left: 3450px;
   }
 
   #last {
-    background-color: #1d3557;
     margin-left: 4002px;
     width: 100vw;
   }
@@ -1184,44 +1162,45 @@ p {
   }
 
   .iconExp {
-    width: 70px;
+    width: 90px;
     color: #1d3557;
   }
 
   .iconExp:hover {
-    width: 90px;
+    width: 100px;
     color: #f1faee;
     transition: 0.2s;
   }
 
   .iconSkills {
-    width: 70px;
+    width: 90px;
     color: #457b9d;
     transition: 0.2s;
   }
 
   .iconSkills:hover {
     color: #f1faee;
-    width: 90px;
+    width: 95px;
   }
 
-  h4 {
+   
+  .contactSection h4, .skillText>h4{
     font-size: large;
   }
 
-  h6 {
+  .contactSection h6, .skillText>h6 {
     font-size: medium;
   }
 
-  p {
+  .contactSection p, .skillText>p{
     font-size: small;
   }
 
-  h2 {
+  .contactSection h2, .skillText>h2 {
     font-size: large;
   }
 
-  h1 {
+  .contactSection h1, .skillText>h1{
     font-size: xx-large;
   }
 }
