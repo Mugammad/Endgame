@@ -110,6 +110,10 @@ function goToAbout(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -210,6 +214,10 @@ function goToHome(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -295,6 +303,10 @@ function goToWork(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -358,6 +370,10 @@ function goToSkills(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -467,6 +483,10 @@ function goToProjects(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -548,6 +568,10 @@ function goToTestimonial(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -630,6 +654,10 @@ function goToContact(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
@@ -712,6 +740,10 @@ function goToLast(){
             location.classList.toggle("skills")
         }
         indicate3.classList.toggle("indShow")
+        document.getElementsByClassName("progress-value")[0].classList.toggle('progHtml')
+        document.getElementsByClassName("progress-value")[1].classList.toggle('progCss')
+        document.getElementsByClassName("progress-value")[2].classList.toggle('progJs')
+        document.getElementsByClassName("progress-value")[3].classList.toggle('progJava')
 
     }
 
