@@ -6,6 +6,14 @@ const buttonProjects = document.querySelector('#projectsBtn')
 const buttonTestimonial = document.querySelector('#testimonialBtn')
 const buttonContact = document.querySelector('#contactBtn')
 
+document.getElementById('About').addEventListener("click", goToAbout)
+document.getElementById('WorkandEducation').addEventListener("click", goToWork)
+document.getElementById('Skills').addEventListener("click", goToSkills)
+document.getElementById('Projects').addEventListener("click", goToProjects)
+document.getElementById('Testimonials').addEventListener("click", goToTestimonial)
+document.getElementById('Contact').addEventListener("click", goToContact)
+document.getElementById('last').addEventListener("click", goToLast)
+
 var place;
 
 // function indicatorFunction(){
